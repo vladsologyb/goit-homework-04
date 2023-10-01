@@ -125,6 +125,11 @@ img {
     padding-top: 188px;
     padding-bottom: 188px;
     background: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/herobg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     
 }
 
@@ -334,7 +339,14 @@ padding: 32px 16px;
     padding-bottom: 100px;
 }
 
+footer-box {
+    display: flex;
+    align-items: baseline;
+}
 
+.footer-container {
+    margin-right: 120px;
+}
 
 .footer-logo {
     color: #4D5AE5;
@@ -364,4 +376,47 @@ padding: 32px 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         max-width: 264px;
+}
+
+.footer-soc-container {
+ 
+}
+
+.footer-soc-text {
+    color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+}
+
+.footer-soc-menu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-soc-list {
+   width: 40px;
+   height: 40px;
+}
+
+.footer-soc-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+justify-content: center;    
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: #31D0AA;
+}
+
+.footer-soc-icon {
+    fill: #f4f4fd;
 }
