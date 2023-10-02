@@ -32,6 +32,7 @@ img {
 .header {
         border-bottom: 1px solid #e7e9fc;
         align-items: center;
+        box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -197,6 +198,17 @@ display: flex;
     width: calc((100%-24px*3) / 4);
 }
 
+.features-item-icon {
+    border-radius: 4px;
+        border: 1px solid #8E8F99;
+        background: #F4F4FD;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px;
+        height: 112px;
+}
+
 .features-subtitle {
     color: #2E2F42;
         font-size: 20px;
@@ -340,7 +352,7 @@ padding: 32px 16px;
 }
 
 footer-box {
-    display: flex;
+display: flex;
     align-items: baseline;
 }
 
@@ -379,7 +391,7 @@ footer-box {
 }
 
 .footer-soc-container {
- 
+align-items: center;
 }
 
 .footer-soc-text {
@@ -394,7 +406,10 @@ footer-box {
 .footer-soc-menu {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 16px;
+    padding-left: 0;
+    margin: auto;
 }
 
 .footer-soc-list {
@@ -409,7 +424,8 @@ footer-box {
     border-radius: 50%;
     display: flex;
     align-items: center;
-justify-content: center;    
+justify-content: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-link:hover,
