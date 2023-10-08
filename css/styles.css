@@ -476,10 +476,6 @@ footer-box {
         max-width: 264px;
 }
 
-.footer-soc-container {
-
-
-}
 
 .footer-soc-text {
     color: #FFF;
@@ -493,7 +489,6 @@ footer-box {
 
 .footer-soc-menu {
     display: flex;
-    justify-content: center;
     gap: 16px;
    
 }
