@@ -80,11 +80,10 @@ img {
 .header-menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-menu-link {
-    color: #404bbf;
+    color: #2E2F42;  
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -92,7 +91,7 @@ img {
         padding: 24px 0 24px;
         display: block;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        position: relative;
+        
 }
 
 .header-menu-link:hover, .header-menu-link:focus {
@@ -100,7 +99,6 @@ img {
 }
 
 .menu-link::after {
-    color: #404bbf;
         content: "";
         position: absolute;
         left: 0;
@@ -110,6 +108,11 @@ img {
         border-radius: 2px;
         background-color: #404bbf;
         transform: translateY(-100%);
+}
+
+.menu-link {
+position: relative;
+color: #404bbf
 }
 
 .contacts {
@@ -215,7 +218,7 @@ display: flex;
 }
 
 .features-item {
-    width: calc((100%-24px*3) / 4);
+    width: calc((100% - 24px*3) / 4);
 }
 
 .features-item-icon {
